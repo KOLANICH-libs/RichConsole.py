@@ -22,6 +22,10 @@ import typing
 from codecs import encode
 from collections.abc import MutableMapping
 
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/RichConsole.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
+
 try:
 	if sys.version_info >= (3, 9):
 		ContainerTuple = typing._alias(tuple, 1, inst=False, name="ContainerTuple")  # pylint: disable=protected-access disable=protected-access
